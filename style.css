@@ -1,0 +1,339 @@
+*
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header
+{
+    background-color: #227CCC;
+    height:50px;
+    padding-left: 8%;
+    padding-top: 15px;
+}
+.fa 
+{
+color:white;
+}
+
+.icon i{
+    padding-left: 20%;
+    float: left;
+}
+.icon a
+{
+display: inline;
+transition: all 0.3s ease;
+font-size:15px;
+} 
+.icon a:hover
+{
+    background-color: #000;
+
+}
+.text
+{
+    
+    text-align: center;
+    font-size: small;
+}
+.btn
+{
+    background-color: white;
+    border-color: darkgreen;
+    color: darkgreen;
+    border-radius: 0px;
+    font-size: small;
+}
+.logo
+{
+ 
+    margin-left:70px;
+    height: 65px;
+   
+}
+.navbar
+{
+    height: 50%;
+  
+}
+.nav-item:hover{
+  
+    background-color:  #227CCC;
+    transition: 0.6s ease;
+ border-radius: 10px;
+}
+.dropdown-item:hover
+{
+    background-color: #227CCC;
+    color:black;
+ 
+ transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+}
+.active
+{
+    background-color:#227CCC ;
+ border-radius: 10px;
+
+}
+
+.nav-link
+{
+    color: black;
+ 
+} 
+
+.navbar-toggler-icon
+{
+    background-color: grey;
+}
+
+.carousel-item
+{
+    margin-right: 0px;
+
+}
+.slader img
+{
+    height: 500px;
+    
+}
+.news
+{
+    margin:10px auto auto auto;
+    height: 60px;
+    width: 90%;
+}
+.news p{
+    color: white;
+    padding:auto;
+}
+.Introduction
+{
+    margin: auto auto auto;
+    text-align: center;
+}
+.intro
+{
+    color: #227CCC;
+    display: inline-block;
+}
+.duction
+{
+    color: darkgreen;
+    display: inline-block;
+  
+    
+}
+.dastar img{
+    height: 50%;
+    width:25%;}
+    .dastar
+    {
+        text-align: center;
+        padding-bottom: 4%;
+        padding-top: 4%;
+    }
+    .dastar p{
+        display: inline-block;
+    }
+   .success
+   {
+       color:#00ff00;
+   }
+.grid
+{
+  display: inline-block;
+}
+.shadow
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20%;
+}
+.imagegallery img
+{
+    height: 150px;
+}
+.foot
+{
+    background-color:#227CCC;
+    font-size: small;
+    height: 30px;
+    color: white;
+}
+.grid{
+    font-size: small;
+}
+.fa-phone
+{
+    color:darkgreen;
+}
+.fa-globe
+{
+    color:darkgreen;
+}
+.fa-envelope
+{
+    color:darkgreen;
+}
+.secondary 
+{
+    color:lightgray;
+}
+.upcome
+{
+    height: 200px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+  
+  @media only screen and (max-width: 600px) 
+  {
+    .header{
+        height: 200px;
+    }
+    .slader img
+    {
+        height: 100px;
+        width: 100%;
+        
+    }
+    .shadow
+    {
+        margin-top: 30px;
+    }
+    .event
+{
+    display: block;
+   width: 100%;
+}
+.doing
+{
+    width: 100%;
+    display: block;
+}
+.thar
+{
+    padding-top: 20px;
+}
+.icon
+{
+    margin:auto auto auto auto;
+}
+
+ }
+
+@media only screen and (min-width: 500px) 
+{ 
+    .header{
+        height: 150px;
+    }
+    .slader img
+    {
+        height: 150px;
+        
+    }
+    .shadow
+    {
+        margin-top: 10px;
+    }
+    .doing
+{
+    width: 100%;
+    display: block;
+}
+    .event
+{
+    display: block;
+   width: 250%;
+}
+.icon
+{
+    margin:auto auto auto auto;
+}
+
+ }
+
+ @media only screen and (min-width: 768px) 
+ { 
+    .header{
+        height: 150px;
+    }
+    .slader img
+{
+    height: 300px;
+    
+}
+.shadow
+{
+    margin-top: 10px;
+}
+.icon
+{
+    margin:0px 0px 0px 0px;
+}
+.doing
+{
+    width: 100%;
+    display: inline-block;
+}
+  }
+ @media only screen and (min-width: 992px) 
+ { .header{
+    height: 100px;
+}
+.slader img
+{
+    height: 400px;
+    
+}
+.event
+{
+    display: inline-block;
+   
+}
+..doing
+{
+    width: 100%;
+    display:inline-block;
+}
+.icon
+{
+    margin:0px 0px 0px 0px;
+}
+
+  }
+ @media only screen and (min-width: 1200px)
+  { 
+    .header{
+        height: 50px;
+    }
+    .slader img
+{
+    height: 500px;
+    
+}
+.event
+{
+    display: inline-block;
+   
+}
+.icon
+{
+    margin:0px 0px 0px 0px;
+}
+.doing
+{
+    width: 100%;
+    display: inline-block;
+}
+
+  }
